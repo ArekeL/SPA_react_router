@@ -5,7 +5,7 @@ const menuList = [
 	{ name: "home", path: "/" },
 	{ name: "articles", path: "/articles" },
 	{ name: "contact", path: "/contact" },
-	{ name: "panel", path: "/panel" },
+	{ name: "login", path: "/panel" },
 ];
 const Navigaton = () => {
 	const menu = menuList.map((item) => (
