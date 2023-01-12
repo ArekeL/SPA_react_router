@@ -10,9 +10,9 @@ div.app {
 }
 
 header {
-	flex-basis: 25vh;
-	/* temporary */
-	border: 1px solid black;
+	flex-basis: 30vh;
+	position: relative;
+	overflow: hidden;
 }
 
 @media (max-width: 970px) {
@@ -33,7 +33,7 @@ header {
 	main .page {
 		flex-grow: 1;
 		margin-top: 20px;
-		min-height: 500px;
+		min-height: 200px;
 	}
 }
 @media (min-width: 971px) {
