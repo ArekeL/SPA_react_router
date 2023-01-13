@@ -11,7 +11,7 @@ div.app {
 }
 
 header {
-	flex-basis: 30vh;
+	min-height: 30vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -34,7 +34,6 @@ header {
 	main .page {
 		flex-grow: 1;
 		margin-top: 20px;
-		min-height: 200px;
 	}
 }
 @media (min-width: 971px) {
