@@ -1,0 +1,35 @@
+.contact {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.contact textarea {
+	font-size: 16px;
+	line-height: 24px;
+	width: 100%;
+	min-height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+.contact h4 {
+	text-align: left;
+}
+.contact button {
+	display: block;
+	float: right;
+	font-size: 20px;
+	padding: 8px 18px;
+	font-weight: 600;
+	border: 3px solid rgb(233, 133, 2);
+	background-color: rgb(233, 133, 2);
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact button:hover {
+	border: 3px solid rgb(233, 133, 2);
+	background-color: white;
+	color: rgb(233, 133, 2);
+}

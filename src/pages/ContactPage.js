@@ -1,5 +1,39 @@
-const ContactPage = () => {
-	return <div>Contact Page it is</div>;
-};
+import React, { Component } from "react";
+import { BrowserRouter, Promtp } from "react-router-dom";
+import "../styles/ContacPage.css";
 
-export default ContactPage;
+class ContactPag extends Component {
+	state = {
+		value: "",
+	};
+
+	handleSubmit = (e) => {
+		e.preventDefault();
+		this.setState({
+			value: "",
+		});
+	};
+
+	handleChange = (e) => {
+		this.setState({
+			value: e.target.value,
+		});
+	};
+
+	render() {
+		return (
+			<div className='contact'>
+				<form onSubmit={this.handleSubmit}>
+					<h4>Contact with us</h4>
+					<textarea
+						placeholder='Write a message...'
+						value={this.state.value}
+						onChange={this.handleChange}></textarea>
+					<button>Send</button>
+				</form>
+			</div>
+		);
+	}
+}
+
+export default ContactPag;
