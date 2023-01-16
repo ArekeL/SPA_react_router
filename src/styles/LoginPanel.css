@@ -1,0 +1,22 @@
+.loginPanel {
+	display: block;
+	margin: 10px auto;
+	width: 60%;
+}
+.loginPanel label {
+	display: block;
+	text-align: right;
+}
+.loginPanel input {
+	font-size: 18px;
+	line-height: 24px;
+	padding: 3px;
+	margin: auto auto 5px 10px;
+}
+
+.loginPanel button {
+	display: block;
+	margin: 10px 0px 10px auto;
+	font-size: 20px;
+	padding: 3px 10px;
+}

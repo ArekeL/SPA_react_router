@@ -1,5 +1,11 @@
+import AdminPage from "./AdminPage";
+import LoginFormPage from "./LoginFormPage";
+import "../styles/LoginPanel.css";
+
+const permotion = false;
+
 const LogInPanel = () => {
-	return <div>Log In Panle Page it is</div>;
+	return permotion ? <AdminPage /> : <LoginFormPage />;
 };
 
 export default LogInPanel;

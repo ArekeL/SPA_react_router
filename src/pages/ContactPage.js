@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter, Promtp } from "react-router-dom";
 import "../styles/ContacPage.css";
 
 class ContactPag extends Component {
