@@ -27,7 +27,7 @@ const articles = [
 	},
 ];
 
-const ArticlePage = () => {
+const ArticlePage = (props) => {
 	const artList = articles.map((article) => (
 		<Article key={article.id} {...article} />
 	));

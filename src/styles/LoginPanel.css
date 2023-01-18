@@ -1,6 +1,6 @@
 .loginPanel {
 	display: block;
-	margin: 10px auto;
+	margin: 30px auto;
 	width: 60%;
 }
 .loginPanel label {
@@ -8,15 +8,27 @@
 	text-align: right;
 }
 .loginPanel input {
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 16px;
+	line-height: 20px;
 	padding: 3px;
-	margin: auto auto 5px 10px;
+	margin: auto auto 7px 10px;
 }
 
 .loginPanel button {
 	display: block;
-	margin: 10px 0px 10px auto;
+	margin: 15px 0px 10px auto;
 	font-size: 20px;
-	padding: 3px 10px;
+	padding: 8px 18px;
+	font-weight: 600;
+	background-color: rgb(210, 2, 2);
+	color: white;
+	border: 3px solid rgb(210, 2, 2);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.loginPanel button:hover {
+	background-color: white;
+	color: rgb(210, 2, 2);
+	transition: 0.5s;
 }

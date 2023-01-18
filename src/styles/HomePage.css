@@ -1,0 +1,36 @@
+.home {
+	display: block;
+	text-align: left;
+}
+.home > h2 {
+	margin: 10px auto 15px auto;
+}
+.home > h3 {
+	margin: auto auto 10px 15px;
+}
+.home .txt {
+	margin: auto auto 10px 15px;
+}
+
+.aboutUs {
+	display: inline;
+	text-align: right;
+	margin: 40px auto;
+}
+.aboutUs ul {
+	list-style: none;
+}
+
+.aboutUs li {
+	font-size: 22px;
+	font-weight: 600;
+	padding: 5px;
+}
+.aboutUs a {
+	text-decoration: none;
+	color: black;
+}
+.aboutUs a:hover {
+	font-size: 22px;
+	font-weight: 700;
+}
