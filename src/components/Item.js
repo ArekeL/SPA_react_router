@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/HomePage.css";
+
 const Item = () => {
 	return (
 		<article className='home'>
