@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SPA_react_router/static/css/main.a8704905.css",
+    "main.js": "/SPA_react_router/static/js/main.1e36deea.js",
+    "static/media/ny_1.jpg": "/SPA_react_router/static/media/ny_1.578bf660102c7c8da5b3.jpg",
+    "static/media/header1.jpg": "/SPA_react_router/static/media/header1.e210d6237c4df53a92ae.jpg",
+    "static/media/ny_3.jpg": "/SPA_react_router/static/media/ny_3.30db1bfcf60fd7275330.jpg",
+    "static/media/ny_2.jpg": "/SPA_react_router/static/media/ny_2.69930d2b041e905d2cd3.jpg",
+    "index.html": "/SPA_react_router/index.html",
+    "main.a8704905.css.map": "/SPA_react_router/static/css/main.a8704905.css.map",
+    "main.1e36deea.js.map": "/SPA_react_router/static/js/main.1e36deea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8704905.css",
+    "static/js/main.1e36deea.js"
+  ]
+}
